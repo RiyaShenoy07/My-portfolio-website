@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 /*body{
-    background-color: bisque;
+    background-color: (your wish);
 }*/
 .nav{
     align-items: center;
@@ -13,7 +13,7 @@
     font-style: normal;
     color: black;
     width: 20%;                /* Makes the element take up 25% width of its parent */
-    background-color: rgb(244, 157, 125);
+    background-color: (your wish);
     font-size: x-large;       /* Sets the font size to extra large */
     text-align: center;        /* Centers the text inside the element */
     border-radius: 40px;       /* Rounded corners */
@@ -21,7 +21,7 @@
     border: 1px solid black;              /* Optional: Adds vertical padding to give it more space */
 }
 #navFont:hover {
-    background-color: rgb(220, 120, 90); /* Change background color on hover */
+    background-color: (your wish); /* Change background color on hover */
     cursor: pointer;                    /* Change cursor to a pointer */
 }
 
@@ -44,22 +44,22 @@
     border-radius: 50px; /* Rounded corners */
     margin-right: 60px;
     margin-left: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    box-shadow: 0 4px 6px (your wish); /* Add subtle shadow */
     transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for hover effect */
 }
 
 .navbar-toggler:hover {
-    background-color:rgb(233, 149, 116); /* Blue background on hover */
+    background-color:(your wish); /* Blue background on hover */
     transform: scale(1.1); /* Slightly enlarge the button on hover */
 }
 
 .navbar-toggler:focus {
     outline: none; /* Remove focus outline */
-    box-shadow: 0 0 0 2px rgb(233, 149, 116); /* Custom focus outline */
+    box-shadow: 0 0 0 2px (your wish); /* Custom focus outline */
 }
 
 .navbar-toggler-icon {
-    background-color: rgb(239, 136, 96); /* Change the icon color to blue */
+    background-color: (your wish); /* Change the icon color to blue */
 }
  /* Fixed Footer Styling */
  .footer {
@@ -67,7 +67,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background: darksalmon;
+    background: (your wish);
     color: black;
     text-align: center;
     padding: 20px 0;
@@ -80,7 +80,7 @@
     flex-direction: column; /* Use flexbox layout */
     align-items: center;    /* Center elements horizontally */
     gap: 20px;              /* Space between the image and paragraph */
-    background-color: rgb(230, 163, 139);
+    background-color: (your wish);
     color: white;
     font-family: "Merriweather", serif;
     margin: 23px auto;
@@ -118,7 +118,7 @@
   }
   
   .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.6); /* Dark background for the caption */
+    background-color: (your wish); /* Dark background for the caption */
     color: white;
     border-radius: 8px; /* Rounded corners for the caption box */
     padding: 30px auto;
@@ -130,10 +130,10 @@
   
   /* Optional: Style for carousel indicators (dots) */
   .carousel-indicators button {
-    background-color: rgba(0, 0, 0, 0.5); /* Darker dots */
+    background-color: (your wish); /* Darker dots */
   }
   
   .carousel-indicators .active {
-    background-color: #ff5733; /* Highlight active dot */
+    background-color: (your wish); /* Highlight active dot */
   }
   
