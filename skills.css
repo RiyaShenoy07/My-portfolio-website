@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 *body{
-    background-color: rgb(238, 210, 176);
+    background-color: (your wish);
 }
 .nav{
     align-items: center;
@@ -13,7 +13,7 @@
     font-style: normal;
     color: black;
     width: 20%;                /* Makes the element take up 25% width of its parent */
-    background-color: rgb(244, 157, 125);
+    background-color: (your wish);
     font-size: x-large;       /* Sets the font size to extra large */
     text-align: center;        /* Centers the text inside the element */
     border-radius: 40px;       /* Rounded corners */
@@ -22,7 +22,7 @@
     margin-left: 30px;
 }
 #navFont:hover {
-    background-color: rgb(220, 120, 90); /* Change background color on hover */
+    background-color: (your wish); /* Change background color on hover */
     cursor: pointer;                    /* Change cursor to a pointer */
 }
 
@@ -50,7 +50,7 @@
 }
 
 .navbar-toggler:hover {
-    background-color:rgb(233, 149, 116); /* Blue background on hover */
+    background-color:(your wish); /* Blue background on hover */
     transform: scale(1.1); /* Slightly enlarge the button on hover */
 }
 
@@ -60,12 +60,12 @@
 }
 
 .navbar-toggler-icon {
-    background-color: rgb(239, 136, 96); /* Change the icon color to blue */
+    background-color: (your wish); /* Change the icon color to blue */
 }
  /* Fixed Footer Styling */
  .footer {
     width: 100%;
-    background: darksalmon;
+    background: (your wish);
     color: black;
     text-align: center;
     padding: 20px 0;
@@ -77,7 +77,7 @@
     padding: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: bisque;
+    background-color: (your wish);
 }
 
 /* Ensure columns are equally spaced and aligned */
@@ -90,7 +90,7 @@
 
 /* Style each column to have some spacing and margin */
 .skill-column {
-    background-color: #f8f9fa;
+    background-color: (your wish);
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 10px;
@@ -131,7 +131,7 @@
 
 .skill-column ul li:before {
     content: "•";
-    color: darksalmon;
+    color: (your wish);
     margin-right: 10px;
 }
 
