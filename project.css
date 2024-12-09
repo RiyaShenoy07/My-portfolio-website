@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.nav{
+    align-items: center;
+}
+
+#navFont {
+    font-family: "Merriweather", serif;
+    font-weight: bolder;
+    font-style: normal;
+    color: black;
+    width: 20%;
+    background-color: rgb(244, 157, 125);
+    font-size: x-large;
+    text-align: center;
+    border-radius: 40px;
+    padding: 10px 0;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+#navFont:hover {
+    background-color: rgb(220, 120, 90);
+    cursor: pointer;
+}
+
+#mainTitle{
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: xx-large;
+    color: black;
+}
+
+.navbar-link {
+    margin-right: 60px;
+}
+
+.navbar-toggler {
+    border: 2px solid rgb(237, 223, 217);
+    padding: 8px 15px;
+    background-color: rgb(222, 136, 101);
+    border-radius: 50px;
+    margin-right: 60px;
+    margin-left: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar-toggler:hover {
+    background-color:rgb(233, 149, 116);
+    transform: scale(1.1);
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgb(233, 149, 116);
+}
+
+.navbar-toggler-icon {
+    background-color: rgb(239, 136, 96);
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: darksalmon;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+/* Container for cards */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); /* This creates a flexible grid layout */
+    gap: 20px;  /* Space between the cards */
+    padding: 0 15px;  /* Padding around the container */
+    margin-top: 30px;  /* Space below the navbar */
+}
+
+
+/* Card styling */
+.card {
+    border: 2px solid black;
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10px;
+    height: auto;  /* Automatically adjusts height based on content */
+}
+
+/* Card Image styling */
+.card-img-top {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover; /* Ensures the image fills the space without distortion */
+    border-bottom: 2px solid #ddd;
+    margin: 10px 0; /* Adjusts the vertical space between the image and the content */
+}
+
+/* Card content styling */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Button styling inside the card */
+.card .btn {
+    margin-top: auto;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: darksalmon;
+    border-color: darksalmon;
+    color: white;
+}
+
+.card .btn:hover {
+    background-color: #f0a500;
+    border-color: #f0a500;
+}
+
+/* Footer styling */
+.footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: darksalmon;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    z-index: 10; /* Ensure the footer stays on top of content */
+    margin-top: 20px;
+}
