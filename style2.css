@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
 
+
 body {
-    background-color: (your choice);
+    background-color: (your wish);
     margin: 0;
     font-family: "Merriweather", serif;
 }
 
-/* Navbar Styling */
+                                                    /* Navbar Styling */
 .nav {
     align-items: center;
 }
@@ -17,17 +18,18 @@ body {
     font-weight: bolder;
     font-style: normal;
     color: black;
-    width: auto;  /* Change from fixed width to auto for flexibility */
-    
+    width: auto;
+    /* Change from fixed width to auto for flexibility */
+    margin-left: 20px;
     font-size: x-large;
     text-align: center;
-    
-    padding: 10px 20px; /* Increased padding */
-    
+    padding: 10px 20px;
+    /* Increased padding */
+
 }
 
 #navFont:hover {
-    background-color: (your choice);
+    background-color: (your wish);
     cursor: pointer;
 }
 
@@ -40,56 +42,14 @@ body {
     color: black;
 }
 
-/* Navbar Link Styling */
-.navbar-link {
-    margin-right: 60px;
-}
 
-.navbar-toggler {
-    border: 2px solid (your choice));
-    padding: 8px 15px;
-    background-color: (your choice);
-    border-radius: 50px;
-    margin-right: 60px;
-    margin-left: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.navbar-toggler:hover {
-    background-color: (your choice);
-    transform: scale(1.1);
-}
-
-.navbar-toggler:focus {
-    outline: none;
-    box-shadow: 0 0 0 2px rgb(233, 149, 116);
-}
-
-.navbar-toggler-icon {
-    background-color: (your choice);
-}
-
-/* Footer Styling */
-.footer {
-    position: relative; /* Fix the footer position issue */
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background: (your choice);
-    color: black;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: auto;
-}
-
-/* Main Container */
+                                                /* Main Container */
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    background-color: (your choice);
+    background-color: (your wish);
     color: white;
     font-family: "Merriweather", serif;
     margin: 23px auto;
@@ -97,7 +57,8 @@ body {
     border-radius: 12px;
     padding: 34px;
     margin-bottom: 80px;
-    min-height: 400px; /* Ensure enough space for content */
+    min-height: 400px;
+ /* Ensure enough space for content */
 }
 
 .image {
@@ -112,7 +73,7 @@ h2 {
     text-align: center;
 }
 
-/* Paragraph Styling */
+                                                /* Paragraph Styling */
 .paragraph {
     font-size: 1.2rem;
     line-height: 1.6;
@@ -120,7 +81,22 @@ h2 {
     margin-top: 20px;
 }
 
-/* Responsive Design */
+
+                                                 /* Footer Styling */
+.footer {
+    position: relative;
+    /* Fix the footer position issue */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: (your wish);
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+                                                /* Responsive Design */
 
 /* Small Screens (Mobile) */
 @media (max-width: 576px) {
@@ -214,6 +190,7 @@ h2 {
 
     .paragraph {
         font-size: 1.2rem;
-        text-align: left; /* Adjust text alignment for readability */
+        text-align: left;
+        /* Adjust text alignment for readability */
     }
 }
