@@ -1,68 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-/*body{
-    background-color: (your wish);
-}*/
-.nav{
+                                                                             /* Navbar Styling */
+.nav {
     align-items: center;
 }
+
 #navFont {
     font-family: "Merriweather", serif;
-    font-weight: bolder;       /* Set bold font weight */
+    font-weight: bolder;
+    /* Set bold font weight */
     font-style: normal;
     color: black;
-    width: 20%;                /* Makes the element take up 25% width of its parent */
+    width: 20%;
+    /* Makes the element take up 25% width of its parent */
     background-color: (your wish);
-    font-size: x-large;       /* Sets the font size to extra large */
-    text-align: center;        /* Centers the text inside the element */
-    border-radius: 40px;       /* Rounded corners */
-    padding: 10px 0;    
-    border: 1px solid black;              /* Optional: Adds vertical padding to give it more space */
-}
-#navFont:hover {
-    background-color: (your wish); /* Change background color on hover */
-    cursor: pointer;                    /* Change cursor to a pointer */
+    font-size: x-large;
+    /* Sets the font size to extra large */
+    text-align: center;
+    /* Centers the text inside the element */
+    border-radius: 40px;
+    /* Rounded corners */
+    padding: 10px 10px;
+    border: 1px solid black;
+    /* Optional: Adds vertical padding to give it more space */
+    margin-left: 30px;
 }
 
-#mainTitle{
+#navFont:hover {
+    background-color: (your wish);
+    /* Change background color on hover */
+    cursor: pointer;
+    /* Change cursor to a pointer */
+}
+
+#mainTitle {
     font-family: "Playwrite HR Lijeva", cursive;
     font-optical-sizing: auto;
     font-weight: bolder;
     font-style: normal;
     font-size: xx-large;
     color: black;
-}   
-.navbar-link {
-    
-    margin-right: 60px; /* Add space between the links */
 }
-.navbar-toggler {
-    border: 2px solid rgb(237, 223, 217); /* Blue border */
-    padding: 8px 15px; /* Increased padding for a larger button */
-    background-color: rgb(222, 136, 101); /* White background */
-    border-radius: 50px; /* Rounded corners */
-    margin-right: 60px;
-    margin-left: 20px;
-    box-shadow: 0 4px 6px (your wish); /* Add subtle shadow */
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for hover effect */
-}
-
-.navbar-toggler:hover {
-    background-color:(your wish); /* Blue background on hover */
-    transform: scale(1.1); /* Slightly enlarge the button on hover */
-}
-
-.navbar-toggler:focus {
-    outline: none; /* Remove focus outline */
-    box-shadow: 0 0 0 2px (your wish); /* Custom focus outline */
+                     
+                                                                        /* Main container style with flexbox */
+.container {
+    display: flex;
+    flex-direction: column;
+    /* Use flexbox layout */
+    align-items: center;
+    /* Center elements horizontally */
+    gap: 20px;
+    /* Space between the image and paragraph */
+    background-color: (your wish);
+    color: white;
+    font-family: "Merriweather", serif;
+    margin: 23px auto;
+    width: 90%;
+    border-radius: 12px;
+    padding: 34px;
+    margin-bottom: 120px;
+    /* Increase bottom margin to avoid content being hidden under footer */
+    padding-bottom: 100px;
+    /* Ensure space for the footer to not overlap the content */
 }
 
-.navbar-toggler-icon {
-    background-color: (your wish); /* Change the icon color to blue */
+                                                                            /* Carousel styling */
+.carousel-item img {
+    height: 473px;
+    /* Set a fixed height for the images */
+    object-fit: cover;
+    /* Ensure the image covers the entire area without distortion */
+    margin: auto;
 }
- /* Fixed Footer Styling */
- .footer {
+
+.carousel-caption {
+    background-color: (your wish);
+    /* Dark background for the caption */
+    color: white;
+    border-radius: 8px;
+    /* Rounded corners for the caption box */
+    padding: 30px auto;
+    height: 320px;
+    width: 1000px;
+    margin-bottom: 65px;
+
+}
+
+                                                                           /* Footer Styling */
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -71,69 +97,6 @@
     color: black;
     text-align: center;
     padding: 20px 0;
-    z-index: 10; /* Ensure the footer stays on top of content */
+    z-index: 10;
+    /* Ensure the footer stays on top of content */
 }
-
-/* Main container style with flexbox */
-.container {
-    display: flex;
-    flex-direction: column; /* Use flexbox layout */
-    align-items: center;    /* Center elements horizontally */
-    gap: 20px;              /* Space between the image and paragraph */
-    background-color: (your wish);
-    color: white;
-    font-family: "Merriweather", serif;
-    margin: 23px auto;
-    width: 90%;
-    border-radius: 12px;
-    padding: 34px;
-    margin-bottom: 120px; /* Increase bottom margin to avoid content being hidden under footer */
-    padding-bottom: 100px; /* Ensure space for the footer to not overlap the content */
-}
-
-
-/*.image {
-    width: 350px;              
-    height: 400px;            
-}*/
-
-/*h2 {
-    margin: 0;                
-    font-size: 2rem;           
-    text-align: center;        
-}*/
-
-
-/*.paragraph {
-    flex: 1;                   
-    font-size: 1.2rem;          
-    line-height: 1.6;          
-}*/
-
-/* Optional Styling for Carousel*/
-.carousel-item img {
-    height: 473px; /* Set a fixed height for the images */
-    object-fit: cover; /* Ensure the image covers the entire area without distortion */
-    margin: auto;
-  }
-  
-  .carousel-caption {
-    background-color: (your wish); /* Dark background for the caption */
-    color: white;
-    border-radius: 8px; /* Rounded corners for the caption box */
-    padding: 30px auto;
-    height: 320px;
-    width: 1000px;
-    margin-bottom: 65px;
-    
-  }
-  
-  /* Optional: Style for carousel indicators (dots) */
-  .carousel-indicators button {
-    background-color: (your wish); /* Darker dots */
-  }
-  
-  .carousel-indicators .active {
-    background-color: (your wish); /* Highlight active dot */
-  }
-  
