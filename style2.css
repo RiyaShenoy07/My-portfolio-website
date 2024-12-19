@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+HR+Lijeva:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 body {
@@ -8,20 +9,20 @@ body {
     font-family: "Merriweather", serif;
 }
 
-                                                    /* Navbar Styling */
+/* Navbar Styling */
 .nav {
     align-items: center;
 }
 
 #navFont {
-    font-family: "Merriweather", serif;
+    font-family: "Roboto", serif;
     font-weight: bolder;
     font-style: normal;
-    color: black;
+    color: (your wish);
     width: auto;
     /* Change from fixed width to auto for flexibility */
     margin-left: 20px;
-    font-size: x-large;
+    font-size: 15px;
     text-align: center;
     padding: 10px 20px;
     /* Increased padding */
@@ -29,7 +30,8 @@ body {
 }
 
 #navFont:hover {
-    background-color: (your wish);
+    
+    color: (your wish);
     cursor: pointer;
 }
 
@@ -43,7 +45,7 @@ body {
 }
 
 
-                                                /* Main Container */
+/* Main Container */
 .container {
     display: flex;
     flex-direction: column;
@@ -51,14 +53,14 @@ body {
     gap: 20px;
     background-color: (your wish);
     color: white;
-    font-family: "Merriweather", serif;
+    font-family: "Roboto", serif;
     margin: 23px auto;
     width: 90%;
     border-radius: 12px;
     padding: 34px;
     margin-bottom: 80px;
     min-height: 400px;
- /* Ensure enough space for content */
+    /* Ensure enough space for content */
 }
 
 .image {
@@ -73,7 +75,7 @@ h2 {
     text-align: center;
 }
 
-                                                /* Paragraph Styling */
+/* Paragraph Styling */
 .paragraph {
     font-size: 1.2rem;
     line-height: 1.6;
@@ -82,7 +84,7 @@ h2 {
 }
 
 
-                                                 /* Footer Styling */
+/* Footer Styling */
 .footer {
     position: relative;
     /* Fix the footer position issue */
@@ -96,7 +98,7 @@ h2 {
     margin-top: auto;
 }
 
-                                                /* Responsive Design */
+/* Responsive Design */
 
 /* Small Screens (Mobile) */
 @media (max-width: 576px) {
